@@ -100,12 +100,6 @@ class _LoginState extends State<Login> {
                         minimumSize: MaterialStateProperty.all(Size(30, 50))),
                     onPressed: () {
                       _SignIn();
-                      // Navigator.push(
-                      //     context,
-                      //     MaterialPageRoute(
-                      //       builder: (context) => const HomePage(),
-                      //     ));
-                      //signup screen
                     },
                     child: Text("Sign In")),
                     

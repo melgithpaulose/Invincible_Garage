@@ -66,9 +66,9 @@ class _AddStaffState extends State<AddStaff> {
     return Scaffold(
       appBar: AppBar(
         title: Text("ADD STAFFS"),
-        //...rest of your app bar code
+        
       ),
-      //...rest of your scaffold code
+     
       body: isLoading
           ? Center(
               child: CircularProgressIndicator(),
@@ -77,7 +77,6 @@ class _AddStaffState extends State<AddStaff> {
               key: _formKey,
               child: ListView(
                 children: [
-                  //...your existing UI code
 
                   Padding(
                     padding: const EdgeInsets.all(5.10),
@@ -85,7 +84,7 @@ class _AddStaffState extends State<AddStaff> {
                       elevation: 10,
                       child: Column(
                         children: [
-                          //...your existing UI code
+                         
 
                           Padding(
                             padding: const EdgeInsets.all(8.0),
@@ -103,7 +102,7 @@ class _AddStaffState extends State<AddStaff> {
                                 }
                                 return null;
                               },
-                              //...rest of your TextFormField code
+                             
                             ),
                           ),
                           Padding(
@@ -122,7 +121,7 @@ class _AddStaffState extends State<AddStaff> {
                                 }
                                 return null;
                               },
-                              //...rest of your TextFormField code
+                             
                             ),
                           ),
                           Padding(
@@ -180,11 +179,11 @@ class _AddStaffState extends State<AddStaff> {
                                 }
                                 return null;
                               },
-                              //...rest of your TextFormField code
+                             
                             ),
                           ),
 
-                          //...repeat the above pattern for other text form fields
+                        
                         ],
                       ),
                     ),
@@ -194,7 +193,7 @@ class _AddStaffState extends State<AddStaff> {
                     width: 10,
                     height: 30,
                   ),
-                  //...more of your existing UI code
+               
 
                   ElevatedButton(
                       onPressed: () {
